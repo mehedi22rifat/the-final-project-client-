@@ -4,6 +4,8 @@ import {
 import MainRoute from "../MainRoute/MainRoute";
 import ErrorElement from "../components/pages/ErrorElement";
 import Home from "../Pages/Home";
+import SingUp from "../components/pages/Authemtacation/SingUp";
+import SingIn from "../components/pages/Authemtacation/SingIn";
 
 
 
@@ -18,6 +20,14 @@ import Home from "../Pages/Home";
         {
             path:'/',
             element:<Home />
+        },
+        {
+          path:'/singUp',
+          element:<SingUp />
+        },
+        {
+          path:'/singIn',
+          element:<SingIn />
         }
       ]
     },
